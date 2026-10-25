@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0",
+  "offline_tests": {
+    "with_private_fixture": {
+      "passed": 29
+    },
+    "without_private_fixture": {
+      "passed": 26,
+      "skipped": 3
+    }
+  },
+  "public_source_build": {
+    "swift_compilation": true,
+    "codesign_verify_deep_strict": true,
+    "selfcheck_resources_verified": true
+  },
+  "device_access_during_publication": false,
+  "new_generic_app_device_transaction_tested": false,
+  "notarized": false,
+  "upstream_commit": "290c79e65fb52b5b64ac64a1c9a835a63d7d821f"
+}
